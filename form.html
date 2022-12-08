@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="styles/form.css">
+		<title>form</title>
+	</head>
+	<body>
+		<main>
+			<div class="main-form">
+				<div class="img"><img src="assets/imgs/Image-Placeholder.png" alt="" /></div>
+				<div class="formDiv">
+          <h1>Create Account</h1>
+          <p>Go ahead and sign up, let everyone know how awesome you are!</p>
+          <form class="bottom-form" id="form">
+            <div >
+              <i class="fa-regular fa-user"></i>
+              <input type="text" id="userName" class="name" name="Username" placeholder="Username" minlength="5" maxlength="15"> 
+            </div>
+            <div >
+            <i class="fa-regular fa-envelope"></i>
+              <input type="text" id="email" class="name" name="Email" placeholder="Email"> 
+            </div>
+            <div>
+              <i class="fa-solid fa-lock"></i>
+              <input type="text" id="password" class="name" name="Password" placeholder="Password" required  > 
+            </div>
+            <div>
+              <i class="fa-solid fa-lock"></i>
+              <input type="text" id="confirmPassword" class="name" name="Password Confirmation" placeholder="Confirm Password"> 
+            </div>
+            <div>
+              <input type ="submit" id="submit" value="Creat Acount" class="submit">
+            </div>
+          </form>
+			</div>
+		</main>
+    <script src="script.js"></script>
+	</body>
+</html>

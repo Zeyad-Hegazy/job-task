@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles/success.css" />
+		<title>success</title>
+	</head>
+	<body>
+		<main>
+			<div class="big-card">
+				<div class="img">
+					<img src="assets/imgs/sucsses.png" />
+				</div>
+				<div class="txt">
+					<h1>Successfully logged In</h1>
+					<div id="emailSuccess" class="email"></div>
+				</div>
+			</div>
+		</main>
+		<script>
+			document.getElementById("emailSuccess").innerHTML =
+				localStorage.getItem("Email");
+		</script>
+	</body>
+</html>
