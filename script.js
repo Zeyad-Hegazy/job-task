@@ -4,10 +4,6 @@ const email = document.getElementById("email");
 const password = document.getElementById("password");
 const confirmPassword = document.getElementById("confirmPassword");
 
-document.querySelectorAll("form div[data-error]").forEach((e) => {
-	e.removeAttribute("data-error");
-});
-
 submit.addEventListener("click", (e) => {
 	let nameValid = false;
 	let emailValid = false;
